@@ -9,4 +9,5 @@ from .learning_model import (
 from .registry import get_learning_model
 
 from .dqn import DQN
+from .rmax import Rmax
 from .mappo import MAPPO

@@ -29,6 +29,7 @@ from .environment import (
 from .human_learning import (
     get_learning_model,
     DQN,
+    Rmax,
     MAPPO
 )
 
