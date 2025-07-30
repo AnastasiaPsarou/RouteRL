@@ -14,7 +14,6 @@ class Rmax(BaseLearningModel):
         self,
         num_states: int,
         num_actions: int,
-        epsilon1: float,
         r_max: float = 1.0,
         m: int = 5,
         discount: float = 0.95,
@@ -28,7 +27,6 @@ class Rmax(BaseLearningModel):
         Args:
             num_states (int): Number of states in the environment.
             num_actions (int): Number of possible actions.
-            epsilon1 (float): Number of iterations the optimal policy will return near-optimal value (U(pi) - epsilon) on average.
             r_max (float, optional): Maximum possible reward for unknown
                 state-action pairs. Defaults to 1.0.
             m (int, optional): Minimum number of visits required to consider
@@ -38,12 +36,9 @@ class Rmax(BaseLearningModel):
         """
         self.num_states = num_states
         self.num_actions = num_actions
-        self.r_max = 0
         self.m = m
         self.discount = discount
-        self.obs_dim = (22, 22)
-
-        self.epsilon1 = epsilon1
+        self.obs_dim = (50, 50, 50)
 
         self.sa_counts = np.zeros((num_states, num_actions), dtype=np.int32)
         self.reward_sums = np.zeros((num_states, num_actions), dtype=np.float32)
@@ -55,7 +50,7 @@ class Rmax(BaseLearningModel):
         )
         np.random.seed(seed)
     
-    def learn(self, action, obs, reward):
+    def learn(self, state, action, reward):
         """Updates the internal model with a new experience.
 
         Increments visit counts for the given state-action pair, adds
@@ -66,25 +61,17 @@ class Rmax(BaseLearningModel):
             obs (int): Current state.
             reward (float): Reward received upon transitioning to next_state.
         """
-        obs_idx = np.ravel_multi_index(obs, self.obs_dim)
+        obs_idx = np.ravel_multi_index(state, self.obs_dim)
 
         if not self.is_known(obs_idx, action):
             self.sa_counts[obs_idx, action] += 1
             self.reward_sums[obs_idx, action] += reward
 
             if self.is_known(obs_idx, action):
-                max_steps = int(
-                    np.log(1 / (self.epsilon1 * (1 - self.discount)))
-                    / (1 - self.discount)
+                r_hat = self.get_reward_estimate(
+                    obs=obs_idx, action=action
                 )
-                for _ in range(max_steps):
-                    for state in range(self.num_states):
-                        for action in range(self.num_actions):
-                            if self.is_known(state, action):
-                                r_hat = self.get_reward_estimate(
-                                    obs=state, action=action
-                                )
-                                self.Q[state, action] = r_hat
+                self.Q[obs_idx, action] = r_hat
 
     def is_known(self, obs, action):
         """Determines if a given state-action pair is known.
@@ -131,6 +118,7 @@ class Rmax(BaseLearningModel):
             int: The action that maximizes the estimated Q-value.
         """
         obs_idx = np.ravel_multi_index(obs, self.obs_dim)
+        self.last_obs = obs_idx
 
         q_values = self.Q[obs_idx]
         return np.random.choice(

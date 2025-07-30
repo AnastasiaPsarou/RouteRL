@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2025-07-29 18:11:23 by Eclipse SUMO sumo Version 1.19.0
+<!-- generated on 2025-07-30 00:23:52 by Eclipse SUMO sumo Version 1.19.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="C:\Users\Anastasia\RouteRL\routerl\environment\../networks/two_route_yield/two_route_yield.net.xml"/>
-        <route-files value="C:\Users\Anastasia\RouteRL\routerl\environment\../networks/two_route_yield/route.rou.xml"/>
-        <additional-files value="C:\Users\Anastasia\RouteRL\routerl\environment\../networks/two_route_yield/det.add.xml"/>
+        <net-file value="C:\Users\Anastasia\RouteRL\routerl\environment\../networks/ingolstadt/ingolstadt.net.xml"/>
+        <route-files value="C:\Users\Anastasia\RouteRL\routerl\environment\../networks/ingolstadt/route.rou.xml"/>
+        <additional-files value="C:\Users\Anastasia\RouteRL\routerl\environment\../networks/ingolstadt/det.add.xml"/>
     </input>
 
     <output>
-        <fcd-output value="C:\Users\Anastasia\RouteRL\routerl\environment\../networks/two_route_yield/fcd.xml"/>
-        <summary-output value="C:\Users\Anastasia\RouteRL\routerl\environment\../networks/two_route_yield/summary.xml"/>
+        <fcd-output value="C:\Users\Anastasia\RouteRL\routerl\environment\../networks/ingolstadt/fcd.xml"/>
+        <summary-output value="C:\Users\Anastasia\RouteRL\routerl\environment\../networks/ingolstadt/summary.xml"/>
         <tripinfo-output value="tutorials/7_Model_Based_Algos/records_rmax\SUMO_output\detailed_sumo_stats_10.xml"/>
         <statistic-output value="tutorials/7_Model_Based_Algos/records_rmax\SUMO_output\sumo_stats_10.xml"/>
     </output>
@@ -32,13 +32,13 @@
 -->
 
 <statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
-    <performance clockBegin="83920.08" clockEnd="83920.23" clockDuration="0.15" traciDuration="0.12" realTimeFactor="1216.22" vehicleUpdatesPerSecond="6912.16" personUpdatesPerSecond="0.00" begin="0.00" end="180.00" duration="180.00"/>
-    <vehicles loaded="22" inserted="22" running="0" waiting="0"/>
+    <performance clockBegin="106272.01" clockEnd="106278.55" clockDuration="6.54" traciDuration="5.22" realTimeFactor="238.34" vehicleUpdatesPerSecond="11891.76" personUpdatesPerSecond="0.00" begin="0.00" end="1559.00" duration="1559.00"/>
+    <vehicles loaded="100" inserted="100" running="0" waiting="0"/>
     <teleports total="0" jam="0" yield="0" wrongLane="0"/>
     <safety collisions="0" emergencyStops="0" emergencyBraking="0"/>
     <persons loaded="0" running="0" jammed="0"/>
     <personTeleports total="0" abortWait="0" wrongDest="0"/>
-    <vehicleTripStatistics count="22" routeLength="306.42" speed="7.06" duration="46.50" waitingTime="8.86" timeLoss="22.61" departDelay="23.18" departDelayWaiting="-1.00" totalTravelTime="1023.00" totalDepartDelay="510.00"/>
+    <vehicleTripStatistics count="100" routeLength="3824.69" speed="5.44" duration="777.84" waitingTime="277.75" timeLoss="411.63" departDelay="30.98" departDelayWaiting="-1.00" totalTravelTime="77784.00" totalDepartDelay="3098.00"/>
     <pedestrianStatistics number="0" routeLength="0.00" duration="0.00" timeLoss="0.00"/>
     <rideStatistics number="0"/>
     <transportStatistics number="0"/>

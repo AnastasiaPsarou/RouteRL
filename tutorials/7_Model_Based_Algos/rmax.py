@@ -17,9 +17,9 @@ os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 #########################
 
 
-new_machines_after_mutation = 10
-human_learning_episodes = 100
-training_episodes = 300
+new_machines_after_mutation = 20
+human_learning_episodes = 1
+training_episodes = 1000
 testing_episodes = 100
 
 total_episodes = human_learning_episodes + training_episodes
@@ -28,6 +28,8 @@ env_params = {
     "agent_parameters" : {
         "new_machines_after_mutation": new_machines_after_mutation,
         "agents_csv_file_name": "agents.csv",
+        "num_agents" : 50,
+
 
 
         "human_parameters" :
@@ -55,11 +57,11 @@ env_params = {
         "machine_parameters" :
         {
             "behavior" : "selfish",
-            "observation_type" : "previous_agents_plus_start_time",
+            "observation_type" : "previous_agents",
         }
     },
     "simulator_parameters" : {
-        "network_name" : "two_route_yield",
+        "network_name" : "ingolstadt",
         "sumo_type" : "sumo",
     },  
     "plotter_parameters" : {
@@ -71,18 +73,18 @@ env_params = {
             "Testing phase"
         ],
         "plot_choices": "basic",
-        "records_folder": "tutorials/7_Model_Based_Algos/records_rmax",
-        "plots_folder": "tutorials/7_Model_Based_Algos/plots_rmax",
+        "records_folder": "tutorials/7_Model_Based_Algos/records_rmax_ingolstadt",
+        "plots_folder": "tutorials/7_Model_Based_Algos/plots_rmax_ingolstadt",
     },
     "path_generation_parameters":
     {
-        "number_of_paths" : 2,
+        "number_of_paths" : 3,
         "beta" : -1,
         "visualize_paths" : True
     }
 }
 
-env = TrafficEnvironment(seed=42, create_agents=False, create_paths=True, **env_params)
+env = TrafficEnvironment(seed=42, create_agents=True, create_paths=True, **env_params)
 
 print("Number of total agents is: ", len(env.all_agents), "\n")
 print("Number of human agents is: ", len(env.human_agents), "\n")
@@ -119,18 +121,22 @@ free_flows = env.get_free_flow_times()
 for h_id, human in mutated_humans.items():
     initial_knowledge = free_flows[(human.origin, human.destination)]
     initial_knowledge = [0, 0]
-    mutated_humans[h_id].model = Rmax(3, len(initial_knowledge))
+
+    num_states = pow(50 ,3) 
+    num_actions = 3
+    
+    mutated_humans[h_id].model = Rmax(num_states = num_states, num_actions = num_actions, r_max = 0)
 
 
 ################
 ## Training loop
 ################
 
+print("Going to start training\n\n")
 
 pbar = tqdm(total=total_episodes, desc="Human learning")
 
 pbar.set_description("AV learning")
-os.makedirs("plots", exist_ok=True)
 for episode in range(training_episodes):
     env.reset()
     for agent in env.agent_iter():
@@ -140,7 +146,7 @@ for episode in range(training_episodes):
             obs = [{kc.AGENT_ID : int(agent), kc.TRAVEL_TIME : -reward}]
             last_action = mutated_humans[agent].last_action
             last_observation = mutated_humans[agent].last_obs
-            
+
             mutated_humans[agent].learn(last_action, obs)
             action = None
         else:

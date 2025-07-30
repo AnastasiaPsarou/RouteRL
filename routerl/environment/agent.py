@@ -215,7 +215,6 @@ class HumanAgent(BaseAgent):
         Returns:
             float: Own travel time of the agent.
         """
-
         own_tt = -1 * next(obs[kc.TRAVEL_TIME] for obs in observation if obs[kc.AGENT_ID] == self.id)
         return own_tt
     
