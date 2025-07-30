@@ -8,18 +8,17 @@ from collections import deque
 from .learning_model import BaseLearningModel
 
 class MBIE(BaseLearningModel):
-    """A simple tabular R-max agent."""
+    """A simple tabular MBIE agent."""
 
     def __init__(
         self,
         num_states: int,
         num_actions: int,
-        r_max: float = 1.0,
-        m: int = 5,
-        discount: float = 0.95,
+        num_agents: int,
+        beta: float,
         seed: int | None = None,
     ):
-        """Initializes the R-max agent with the given parameters.
+        """Initializes the MBIE agent with the given parameters.
 
         Creates the necessary data structures for counting visits and transitions,
         as well as storing estimates for rewards and the value function.
@@ -27,18 +26,14 @@ class MBIE(BaseLearningModel):
         Args:
             num_states (int): Number of states in the environment.
             num_actions (int): Number of possible actions.
-            r_max (float, optional): Maximum possible reward for unknown
-                state-action pairs. Defaults to 1.0.
-            m (int, optional): Minimum number of visits required to consider
-                a state-action pair as known. Defaults to 5.
-            discount (float, optional): Discount factor. Defaults to 0.95.
+            beta (float): Exploration bonus coefficient.
             seed (int | None, optional): Seed to ensure reproducibility. Defaults to None.
         """
         self.num_states = num_states
         self.num_actions = num_actions
-        self.m = m
-        self.discount = discount
-        self.obs_dim = (50, 50, 50)
+        self.obs_dim = tuple([num_agents] * num_actions)
+
+        self.beta = beta
 
         self.sa_counts = np.zeros((num_states, num_actions), dtype=np.int32)
         self.reward_sums = np.zeros((num_states, num_actions), dtype=np.float32)
@@ -46,7 +41,7 @@ class MBIE(BaseLearningModel):
         self.Q = np.full(
             (num_states, num_actions),
             dtype=np.float32,
-            fill_value=r_max / (1 - discount),
+            fill_value=0,
         )
         np.random.seed(seed)
     
@@ -63,35 +58,19 @@ class MBIE(BaseLearningModel):
         """
         obs_idx = np.ravel_multi_index(state, self.obs_dim)
 
-        if not self.is_known(obs_idx, action):
-            self.sa_counts[obs_idx, action] += 1
-            self.reward_sums[obs_idx, action] += reward
+        self.sa_counts[obs_idx, action] += 1
+        self.reward_sums[obs_idx, action] += reward
 
-            if self.is_known(obs_idx, action):
-                r_hat = self.get_reward_estimate(
-                    obs=obs_idx, action=action
-                )
-                self.Q[obs_idx, action] = r_hat
+        r_hat = self.get_reward_estimate(
+            obs=obs_idx, action=action
+        )
 
-    def is_known(self, obs, action):
-        """Determines if a given state-action pair is known.
-
-        A pair is considered known if it has been visited at least m times.
-
-        Args:
-            state (int): State of interest.
-            action (int): Action of interest.
-
-        Returns:
-            bool: True if the pair is known, otherwise False.
-        """
-        return self.sa_counts[obs, action] >= self.m
+        stability_coeff = 0.001 # avoid division by zero
+        exploration_bonus = 1 / np.sqrt(self.sa_counts[obs_idx, action] + stability_coeff) 
+        self.Q[obs_idx, action] = r_hat + self.beta * exploration_bonus
 
     def get_reward_estimate(self, obs, action):
         """Computes the estimated reward for a state-action pair.
-
-        If the pair is known, returns the average observed reward.
-        Otherwise, returns r_max.
 
         Args:
             state (int): State of interest.
@@ -100,10 +79,8 @@ class MBIE(BaseLearningModel):
         Returns:
             float: Estimated reward for the given state-action pair.
         """
-        if self.is_known(obs, action):
-            return self.reward_sums[obs, action] / self.sa_counts[obs, action]
-        else:
-            return self.r_max
+        return self.reward_sums[obs, action] / self.sa_counts[obs, action]
+
 
     def act(self, obs) -> int:
         """Selects an action based on the current value function.
