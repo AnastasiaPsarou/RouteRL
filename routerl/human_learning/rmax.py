@@ -3,6 +3,7 @@ import random
 import torch
 import torch.nn as nn
 import torch.optim as optim
+import statistics
 
 from collections import deque
 from .learning_model import BaseLearningModel
@@ -14,6 +15,7 @@ class Rmax(BaseLearningModel):
         self,
         num_states: int,
         num_actions: int,
+        training_episodes: int,
         r_max: float = 1.0,
         m: int = 5,
         discount: float = 0.95,
@@ -38,10 +40,18 @@ class Rmax(BaseLearningModel):
         self.num_actions = num_actions
         self.m = m
         self.discount = discount
-        self.obs_dim = (50, 50, 50)
+        self.obs_dim = (22, 22)
 
         self.sa_counts = np.zeros((num_states, num_actions), dtype=np.int32)
         self.reward_sums = np.zeros((num_states, num_actions), dtype=np.float32)
+        
+        # Table that keeps track of the reward values explored by an agent in each state and action
+        #self.reward_table = np.zeros((num_states, num_actions, training_episodes), dtype=np.float32)
+        self.reward_table = np.empty((num_states, num_actions), dtype=object)
+        for i in range(num_states):
+            for j in range(num_actions):
+                self.reward_table[i, j] = []  # each cell is a Python list
+
 
         self.Q = np.full(
             (num_states, num_actions),
@@ -65,7 +75,14 @@ class Rmax(BaseLearningModel):
 
         if not self.is_known(obs_idx, action):
             self.sa_counts[obs_idx, action] += 1
+
+            self.reward_table[obs_idx, action].append(reward)
             self.reward_sums[obs_idx, action] += reward
+
+            """rewards = self.reward_sums[obs_idx, action]
+            if len(rewards) > 1:
+                var = statistics.variance(rewards)"""
+
 
             if self.is_known(obs_idx, action):
                 r_hat = self.get_reward_estimate(
@@ -123,4 +140,4 @@ class Rmax(BaseLearningModel):
         q_values = self.Q[obs_idx]
         return np.random.choice(
             np.argwhere(q_values == np.max(q_values)).reshape((-1,))
-        )
+        )         

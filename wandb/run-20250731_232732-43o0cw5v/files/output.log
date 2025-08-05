@@ -1,0 +1,158 @@
+[32m[I 2025-07-31 23:27:33,412][0m A new study created in memory with name: no-name-da49318d-c172-4caa-bb3b-3bf999a998a5[0m
+[33m[W 2025-07-31 23:27:33,448][0m Trial 0 failed with parameters: {'beta': 2.5, 'alpha': 0.2} because of the following error: RuntimeError('\n        An attempt has been made to start a new process before the\n        current process has finished its bootstrapping phase.\n\n        This probably means that you are not using fork to start your\n        child processes and you have forgotten to use the proper idiom\n        in the main module:\n\n            if __name__ == \'__main__\':\n                freeze_support()\n                ...\n\n        The "freeze_support()" line can be omitted if the program\n        is not going to be frozen to produce an executable.\n\n        To fix this issue, refer to the "Safe importing of main module"\n        section in https://docs.python.org/3/library/multiprocessing.html\n        ').[0m
+Traceback (most recent call last):
+  File "C:\Users\Anastasia\anaconda3\Lib\site-packages\optuna\study\_optimize.py", line 201, in _run_trial
+    value_or_values = func(trial)
+  File "C:\Users\Anastasia\RouteRL\tutorials\7_Model_Based_Algos\ucb_optuna.py", line 93, in objective
+    env = TrafficEnvironment(seed=42, create_agents=False, create_paths=True, **env_params)
+  File "C:\Users\Anastasia\RouteRL\routerl\environment\environment.py", line 365, in __init__
+    self.simulator = SumoSimulator(self.simulation_params, self.path_gen_params, seed, not create_agents, save_detectors_info, randomize_sumo_seed)
+                     ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anastasia\RouteRL\routerl\environment\simulator.py", line 106, in __init__
+    self._get_paths(params, path_gen_params, using_custom_demand)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anastasia\RouteRL\routerl\environment\simulator.py", line 185, in _get_paths
+    futures = [executor.submit(self._route_vis_process, demands, origin_idx, dest_idx, origin, destination, routes, path_visuals_path) for origin_idx, origin in enumerate(origins) for dest_idx, destination in enumerate(destinations)]
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anastasia\anaconda3\Lib\concurrent\futures\process.py", line 803, in submit
+    self._adjust_process_count()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Anastasia\anaconda3\Lib\concurrent\futures\process.py", line 762, in _adjust_process_count
+    self._spawn_process()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Anastasia\anaconda3\Lib\concurrent\futures\process.py", line 780, in _spawn_process
+    p.start()
+    ~~~~~~~^^
+  File "C:\Users\Anastasia\anaconda3\Lib\multiprocessing\process.py", line 121, in start
+    self._popen = self._Popen(self)
+                  ~~~~~~~~~~~^^^^^^
+  File "C:\Users\Anastasia\anaconda3\Lib\multiprocessing\context.py", line 337, in _Popen
+    return Popen(process_obj)
+  File "C:\Users\Anastasia\anaconda3\Lib\multiprocessing\popen_spawn_win32.py", line 47, in __init__
+    prep_data = spawn.get_preparation_data(process_obj._name)
+  File "C:\Users\Anastasia\anaconda3\Lib\multiprocessing\spawn.py", line 164, in get_preparation_data
+    _check_not_importing_main()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Anastasia\anaconda3\Lib\multiprocessing\spawn.py", line 140, in _check_not_importing_main
+    raise RuntimeError('''
+    ...<16 lines>...
+    ''')
+RuntimeError:
+        An attempt has been made to start a new process before the
+        current process has finished its bootstrapping phase.
+
+        This probably means that you are not using fork to start your
+        child processes and you have forgotten to use the proper idiom
+        in the main module:
+
+            if __name__ == '__main__':
+                freeze_support()
+                ...
+
+        The "freeze_support()" line can be omitted if the program
+        is not going to be frozen to produce an executable.
+
+        To fix this issue, refer to the "Safe importing of main module"
+        section in https://docs.python.org/3/library/multiprocessing.html
+
+[33m[W 2025-07-31 23:27:33,459][0m Trial 0 failed with value None.[0m
+Traceback (most recent call last):
+  File [35m"<string>"[0m, line [35m1[0m, in [35m<module>[0m
+    from multiprocessing.spawn import spawn_main; [31mspawn_main[0m[1;31m(parent_pid=1028, pipe_handle=2916)[0m
+                                                  [31m~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"C:\Users\Anastasia\anaconda3\Lib\multiprocessing\spawn.py"[0m, line [35m122[0m, in [35mspawn_main[0m
+    exitcode = _main(fd, parent_sentinel)
+  File [35m"C:\Users\Anastasia\anaconda3\Lib\multiprocessing\spawn.py"[0m, line [35m131[0m, in [35m_main[0m
+    [31mprepare[0m[1;31m(preparation_data)[0m
+    [31m~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^[0m
+  File [35m"C:\Users\Anastasia\anaconda3\Lib\multiprocessing\spawn.py"[0m, line [35m246[0m, in [35mprepare[0m
+    [31m_fixup_main_from_path[0m[1;31m(data['init_main_from_path'])[0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"C:\Users\Anastasia\anaconda3\Lib\multiprocessing\spawn.py"[0m, line [35m297[0m, in [35m_fixup_main_from_path[0m
+    main_content = runpy.run_path(main_path,
+                                  run_name="__mp_main__")
+  File [35m"<frozen runpy>"[0m, line [35m287[0m, in [35mrun_path[0m
+  File [35m"<frozen runpy>"[0m, line [35m98[0m, in [35m_run_module_code[0m
+  File [35m"<frozen runpy>"[0m, line [35m88[0m, in [35m_run_code[0m
+  File [35m"C:\Users\Anastasia\RouteRL\tutorials\7_Model_Based_Algos\ucb_optuna.py"[0m, line [35m207[0m, in [35m<module>[0m
+    [31mstudy.optimize[0m[1;31m(objective, n_trials=100)[0m
+    [31m~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"C:\Users\Anastasia\anaconda3\Lib\site-packages\optuna\study\study.py"[0m, line [35m489[0m, in [35moptimize[0m
+    [31m_optimize[0m[1;31m([0m
+    [31m~~~~~~~~~[0m[1;31m^[0m
+        [1;31mstudy=self,[0m
+        [1;31m^^^^^^^^^^^[0m
+    ...<7 lines>...
+        [1;31mshow_progress_bar=show_progress_bar,[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"C:\Users\Anastasia\anaconda3\Lib\site-packages\optuna\study\_optimize.py"[0m, line [35m64[0m, in [35m_optimize[0m
+    [31m_optimize_sequential[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31mstudy,[0m
+        [1;31m^^^^^^[0m
+    ...<8 lines>...
+        [1;31mprogress_bar=progress_bar,[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"C:\Users\Anastasia\anaconda3\Lib\site-packages\optuna\study\_optimize.py"[0m, line [35m161[0m, in [35m_optimize_sequential[0m
+    frozen_trial = _run_trial(study, func, catch)
+  File [35m"C:\Users\Anastasia\anaconda3\Lib\site-packages\optuna\study\_optimize.py"[0m, line [35m253[0m, in [35m_run_trial[0m
+    raise func_err
+  File [35m"C:\Users\Anastasia\anaconda3\Lib\site-packages\optuna\study\_optimize.py"[0m, line [35m201[0m, in [35m_run_trial[0m
+    value_or_values = func(trial)
+  File [35m"C:\Users\Anastasia\RouteRL\tutorials\7_Model_Based_Algos\ucb_optuna.py"[0m, line [35m93[0m, in [35mobjective[0m
+    env = TrafficEnvironment(seed=42, create_agents=False, create_paths=True, **env_params)
+  File [35m"C:\Users\Anastasia\RouteRL\routerl\environment\environment.py"[0m, line [35m365[0m, in [35m__init__[0m
+    self.simulator = [31mSumoSimulator[0m[1;31m(self.simulation_params, self.path_gen_params, seed, not create_agents, save_detectors_info, randomize_sumo_seed)[0m
+                     [31m~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"C:\Users\Anastasia\RouteRL\routerl\environment\simulator.py"[0m, line [35m106[0m, in [35m__init__[0m
+    [31mself._get_paths[0m[1;31m(params, path_gen_params, using_custom_demand)[0m
+    [31m~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"C:\Users\Anastasia\RouteRL\routerl\environment\simulator.py"[0m, line [35m185[0m, in [35m_get_paths[0m
+    futures = [[31mexecutor.submit[0m[1;31m(self._route_vis_process, demands, origin_idx, dest_idx, origin, destination, routes, path_visuals_path)[0m for origin_idx, origin in enumerate(origins) for dest_idx, destination in enumerate(destinations)]
+               [31m~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"C:\Users\Anastasia\anaconda3\Lib\concurrent\futures\process.py"[0m, line [35m803[0m, in [35msubmit[0m
+    [31mself._adjust_process_count[0m[1;31m()[0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"C:\Users\Anastasia\anaconda3\Lib\concurrent\futures\process.py"[0m, line [35m762[0m, in [35m_adjust_process_count[0m
+    [31mself._spawn_process[0m[1;31m()[0m
+    [31m~~~~~~~~~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"C:\Users\Anastasia\anaconda3\Lib\concurrent\futures\process.py"[0m, line [35m780[0m, in [35m_spawn_process[0m
+    [31mp.start[0m[1;31m()[0m
+    [31m~~~~~~~[0m[1;31m^^[0m
+  File [35m"C:\Users\Anastasia\anaconda3\Lib\multiprocessing\process.py"[0m, line [35m121[0m, in [35mstart[0m
+    self._popen = [31mself._Popen[0m[1;31m(self)[0m
+                  [31m~~~~~~~~~~~[0m[1;31m^^^^^^[0m
+  File [35m"C:\Users\Anastasia\anaconda3\Lib\multiprocessing\context.py"[0m, line [35m337[0m, in [35m_Popen[0m
+    return Popen(process_obj)
+  File [35m"C:\Users\Anastasia\anaconda3\Lib\multiprocessing\popen_spawn_win32.py"[0m, line [35m47[0m, in [35m__init__[0m
+    prep_data = spawn.get_preparation_data(process_obj._name)
+  File [35m"C:\Users\Anastasia\anaconda3\Lib\multiprocessing\spawn.py"[0m, line [35m164[0m, in [35mget_preparation_data[0m
+    [31m_check_not_importing_main[0m[1;31m()[0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"C:\Users\Anastasia\anaconda3\Lib\multiprocessing\spawn.py"[0m, line [35m140[0m, in [35m_check_not_importing_main[0m
+    raise RuntimeError('''
+    ...<16 lines>...
+    ''')
+[1;35mRuntimeError[0m: [35m
+        An attempt has been made to start a new process before the
+        current process has finished its bootstrapping phase.
+
+        This probably means that you are not using fork to start your
+        child processes and you have forgotten to use the proper idiom
+        in the main module:
+
+            if __name__ == '__main__':
+                freeze_support()
+                ...
+
+        The "freeze_support()" line can be omitted if the program
+        is not going to be frozen to produce an executable.
+
+        To fix this issue, refer to the "Safe importing of main module"
+        section in https://docs.python.org/3/library/multiprocessing.html
+        [0m
+[0m

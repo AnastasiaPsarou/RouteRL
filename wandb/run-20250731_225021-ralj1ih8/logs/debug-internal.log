@@ -1,0 +1,616 @@
+{"time":"2025-07-31T22:50:21.6562305+02:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-31T22:50:21.8011614+02:00","level":"INFO","msg":"stream: created new stream","id":"ralj1ih8"}
+{"time":"2025-07-31T22:50:21.8011614+02:00","level":"INFO","msg":"stream: started","id":"ralj1ih8"}
+{"time":"2025-07-31T22:50:21.8011614+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"ralj1ih8"}
+{"time":"2025-07-31T22:50:21.8011614+02:00","level":"INFO","msg":"handler: started","stream_id":"ralj1ih8"}
+{"time":"2025-07-31T22:50:21.8011614+02:00","level":"INFO","msg":"sender: started","stream_id":"ralj1ih8"}
+{"time":"2025-07-31T22:50:37.0404683+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:50:52.0404164+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:51:07.0404659+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:51:22.0401069+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:51:37.0400933+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:51:52.0403309+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:52:07.0403192+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:52:22.0403667+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:52:37.0404271+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:52:52.0403007+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:53:07.0405229+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:53:22.0399974+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:53:37.0402646+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:53:52.0402804+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:54:07.0404902+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:54:22.0400922+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:54:37.040165+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:54:52.0405224+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:55:07.0403006+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:55:22.0400106+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:55:37.0401472+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:55:52.0402079+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:56:07.0405012+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:56:22.0404449+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:56:37.0404344+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:56:52.0405548+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:57:07.0401243+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:57:22.0403706+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:57:37.040377+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:57:52.0402516+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:58:07.040245+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:58:22.0402089+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:58:37.040217+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:58:52.0401443+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:59:07.0402662+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:59:22.040064+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:59:37.0401034+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T22:59:52.0403254+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:00:07.0405379+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:00:22.0404313+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:00:37.040283+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:00:52.0403045+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:01:07.0404954+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:01:22.0404284+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:01:37.0401693+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:01:52.0405577+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:02:07.0405281+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:02:22.040225+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:02:37.0403375+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:02:52.0404349+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:03:07.0402393+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:03:22.0404501+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:03:37.0404756+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:03:52.0404205+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:04:07.0404417+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:04:22.0401857+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:04:37.040421+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:04:52.040514+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:05:07.0404635+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:05:22.0401492+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:05:37.0403055+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:05:52.0406731+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:06:07.0399335+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:06:22.0404793+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:06:37.0402467+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:06:52.0405761+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:07:07.0403086+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:07:22.0404509+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:07:37.0398994+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:07:52.0402397+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:08:07.0404229+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:08:22.0403142+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:08:37.0404534+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:08:52.0403496+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:09:07.0407497+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:09:22.0402362+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:09:37.040601+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:09:52.040286+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:10:07.0404096+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:10:22.0401349+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:10:37.0404097+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:10:52.0406269+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:11:07.0401508+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:11:22.0402583+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:11:37.0402305+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:11:52.040257+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:12:07.0405154+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:12:22.040123+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:12:37.0404221+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:12:52.0404028+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:13:07.0405329+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:13:22.0402467+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:13:37.0402657+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:13:52.0401082+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:14:07.0403173+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:14:22.0405716+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:14:37.0403336+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:14:52.0406465+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:15:07.0400992+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:15:22.0404257+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:15:37.0405201+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:15:52.0405141+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:16:07.0402806+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:16:22.0404363+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:16:37.0400778+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:16:52.0403765+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:17:07.040231+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:17:22.0405515+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:17:37.0404146+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:17:52.0404773+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:18:07.0401813+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:18:22.0403265+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:18:37.0402136+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:18:52.0401114+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:19:07.0409544+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:19:22.0403851+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:19:37.0401477+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:19:52.0405875+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:20:07.0402327+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:20:22.0401274+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:20:37.0402857+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:20:52.0404034+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:21:07.040418+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:21:22.0505301+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:21:37.0404671+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:21:52.0404938+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:22:07.040231+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:22:22.0402741+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:22:37.0404795+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:22:52.0403788+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:23:07.040346+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:23:22.0405777+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:23:37.0400426+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:23:52.0401813+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:24:07.0405943+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:24:22.0405741+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:24:37.0401622+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:24:52.0410798+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:25:07.040194+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:25:22.0405414+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:25:37.0403508+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:25:52.0494873+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:26:07.0404994+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:26:22.0402989+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:26:37.0400364+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:26:52.0403805+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:27:07.0405105+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:27:22.0404122+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:27:37.0404656+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:27:52.0402417+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:28:07.0403292+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:28:22.0403756+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:28:37.0404638+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:28:52.0403792+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:29:07.040069+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:29:22.0405503+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:29:37.0405371+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:29:52.0403028+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:30:07.0408591+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:30:22.0402568+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:30:37.0400912+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:30:52.0400246+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:31:07.0403327+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:31:22.0402629+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:31:37.0404405+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:31:52.040223+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:32:07.0403405+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:32:22.0404253+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:32:37.0406351+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:32:52.0404532+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:33:07.0401626+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:33:22.0402441+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:33:37.0404944+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:33:52.0405114+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:34:07.0402939+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:34:22.0402927+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:34:37.0401899+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:34:52.0405699+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:35:07.0404281+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:35:22.0402264+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:35:37.0518398+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:35:52.0405237+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:36:07.0406547+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:36:22.040122+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:36:37.0400438+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:36:52.0405397+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:37:07.040367+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:37:22.0405998+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:37:37.0405509+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:37:52.0406222+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:38:07.0402107+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:38:22.0401974+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:38:37.0402209+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:38:52.0399528+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:39:07.040274+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:39:22.0401752+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:39:37.0406862+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:39:52.0401129+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:40:07.0401129+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:40:22.0400162+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:40:37.0403405+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:40:52.0401198+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:41:07.0404817+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:41:22.0404225+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:41:37.0402832+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:41:52.0403567+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:42:07.0401445+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:42:22.0404434+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:42:37.0403459+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:42:52.0403293+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:43:07.0405541+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:43:22.0402205+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:43:37.0402549+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:43:52.0405783+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:44:07.0404909+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:44:22.040398+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:44:37.0407613+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:44:52.0405224+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:45:02.6051921+02:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-07-31T23:45:07.0407308+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:45:22.0403718+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:45:37.040304+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:45:52.0403742+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:46:07.0400791+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:46:22.0400823+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:46:37.0400519+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:46:52.0401151+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:47:07.0401897+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:47:22.0405116+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:47:37.0401348+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:47:52.0402886+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:48:07.040162+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:48:22.0405216+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:48:37.0402909+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:48:52.0400537+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:49:07.0404042+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:49:22.0401385+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:49:37.0401895+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:49:52.0404713+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:50:07.0402779+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:50:22.0400848+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:50:37.0402006+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:50:52.0403663+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:51:07.0404935+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:51:22.0401773+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:51:37.0410057+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:51:52.0403808+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:52:07.0404934+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:52:22.0411116+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:52:37.0415156+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:52:52.0401386+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:53:07.0401043+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:53:22.0398928+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:53:37.0403027+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:53:52.0406565+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:54:07.0404209+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:54:22.0401439+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:54:37.04074+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:54:52.040643+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:55:07.0404169+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:55:22.0408979+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:55:37.040781+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:55:52.040142+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:56:07.0405864+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:56:22.0401703+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:56:37.0407451+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:56:52.0409209+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:57:07.0403185+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:57:22.0408593+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:57:37.0408294+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:57:52.0404632+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:58:07.0401458+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:58:22.0404915+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:58:37.0406929+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:58:52.0402781+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:59:07.0408314+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:59:22.0404257+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:59:37.0405234+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T23:59:52.0405567+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:00:07.0405817+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:00:22.0408505+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:00:37.040256+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:00:52.0404137+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:01:07.0401751+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:01:22.0405424+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:01:37.0405395+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:01:52.0399884+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:02:07.0401097+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:02:22.0406889+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:02:37.0400559+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:02:52.0405952+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:03:07.0411068+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:03:22.0405627+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:03:37.0401034+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:03:52.0405776+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:04:07.040469+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:04:22.0399134+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:04:37.0402916+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:04:52.0403848+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:05:07.0406327+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:05:22.0401153+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:05:37.0406545+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:05:52.0452903+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:06:07.04009+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:06:22.0404416+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:06:37.0400677+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:06:52.0533977+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:07:07.0414006+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:07:22.0416191+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:07:37.0402932+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:07:52.0408771+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:08:07.0403591+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:08:22.0472818+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:08:37.0406805+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:08:52.0404784+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:09:07.040175+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:09:22.040715+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:09:37.0402517+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:09:52.0401923+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:10:07.0401582+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:10:22.0405714+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:10:37.0405374+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:10:52.0403182+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:11:07.0462215+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:11:22.0449804+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:11:37.0409195+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:11:52.0402788+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:12:07.0403504+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:12:22.0400793+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:12:37.0403244+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:12:52.0402411+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:13:07.0402762+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:13:22.0404656+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:13:37.0406382+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:13:52.0402849+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:14:07.0412304+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:14:22.040472+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:14:37.040358+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:14:52.0405636+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:15:07.0400385+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:15:22.0469343+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:15:37.0403857+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:15:52.040583+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:16:07.0405515+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:16:22.040502+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:16:37.0405019+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:16:52.0400715+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:17:07.0407269+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:17:22.0407002+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:17:37.0401236+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:17:52.0404574+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:18:07.0401602+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:18:22.0447807+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:18:37.0403897+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:18:52.0424388+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:19:07.0402572+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:19:22.0404916+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:19:37.0402029+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:19:52.040283+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:20:07.0402467+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:20:22.0403113+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:20:37.0400798+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:20:52.0402164+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:21:07.0403054+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:21:22.0403697+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:21:37.0401678+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:21:52.0400119+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:22:07.0405907+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:22:22.0403229+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:22:37.0402405+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:22:52.0416347+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:23:07.0402537+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:23:22.0405745+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:23:37.0405304+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:23:52.0401723+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:24:07.0403646+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:24:22.0403883+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:24:37.0405907+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:24:52.0400359+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:25:07.040337+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:25:22.0403094+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:25:37.0404935+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:25:52.0402059+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:26:07.0406541+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:26:22.0403435+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:26:37.0403656+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:26:52.0404297+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:27:07.0406009+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:27:22.0406177+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:27:37.0404472+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:27:52.0406569+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:28:07.0402419+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:28:22.0404111+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:28:37.0401981+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:28:52.0401557+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:29:07.0401396+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:29:22.0401539+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:29:37.0401078+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:29:52.0402784+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:30:07.040448+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:30:22.0399938+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:30:37.0405788+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:30:52.0402082+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:31:07.0406167+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:31:22.0404434+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:31:37.0400883+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:31:52.0402862+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:32:07.0403077+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:32:22.0400688+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:32:37.0400626+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:32:52.0408577+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:33:07.03989+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:33:22.0402118+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:53:07.280534+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:53:22.0400672+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:53:37.0403533+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:53:52.0404925+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:54:07.0403778+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:54:07.5079664+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T00:54:10.1652004+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T00:54:22.0398834+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:54:37.0401417+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:54:52.0404513+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:55:07.040349+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:55:22.0410213+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:55:37.0406436+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:55:52.0406904+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:56:07.0404903+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:56:22.0403052+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:56:37.041028+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:56:52.0405858+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:57:07.0403361+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:57:22.040588+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:57:37.0400797+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:57:52.0402042+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:58:07.0404332+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:58:22.0403559+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:58:37.0401842+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:58:52.0403557+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:59:07.0403969+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:59:07.5633673+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T00:59:09.7681985+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T00:59:14.2751994+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T00:59:22.0402524+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:59:37.0402224+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T00:59:52.0404175+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:00:07.0404181+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:00:22.0402791+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:00:37.0408572+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:00:37.5733304+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:00:39.9632113+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:00:52.0402379+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:01:07.0406386+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:01:22.0405622+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:01:37.0410853+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:01:52.0403711+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:02:07.0405824+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:02:22.0407233+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:02:37.0402911+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:02:52.0404183+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:03:07.0405371+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:03:22.0401055+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:03:37.0407287+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:03:52.0404163+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:04:07.0402136+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:04:07.6262993+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:04:10.1454814+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:04:22.0405743+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:04:37.0404083+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:04:52.0412661+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:05:07.0401965+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:05:22.0405735+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:05:37.0406409+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:05:37.5993198+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:05:39.7981007+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:05:52.0403633+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:06:07.0403986+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:06:07.5971527+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:06:09.9981422+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:06:22.0403266+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:06:37.04022+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:06:52.0404591+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:07:07.0401938+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:07:22.0402279+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:07:37.0405804+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:07:52.0405554+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:08:07.040228+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:08:07.607048+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:08:09.8217066+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:08:22.0402338+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:08:37.0401365+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:08:37.5996411+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:08:40.133107+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:08:52.0403206+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:09:07.0405646+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:09:22.0403266+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:09:37.0400693+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:09:52.0409149+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:10:07.040189+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:10:22.0401236+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:10:37.0402577+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:10:37.6212155+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:10:39.9094928+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:10:52.0403514+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:11:07.0401507+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:11:22.040375+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:11:37.0403757+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:11:52.040583+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:12:07.0404617+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:12:07.617218+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:12:10.161749+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:12:22.0403651+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:12:37.04042+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:12:52.0403172+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:13:07.0404986+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:13:22.0400787+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:13:37.0400344+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:13:52.0403718+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:14:07.0399722+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:14:07.6181747+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:14:10.272947+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:14:22.0406015+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:14:37.0406601+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:14:37.6010274+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:14:39.9747757+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:14:52.0404555+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:15:07.0408036+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:15:07.624395+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:15:10.0198369+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:15:22.0400038+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:15:37.0405443+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:15:37.6079578+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:15:39.8756593+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:15:52.0405867+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:16:07.0400482+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:16:22.040537+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:16:37.0402383+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:16:37.6067817+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:16:40.0069374+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:16:52.0403978+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:17:07.0410935+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:17:07.6125978+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:17:09.9211991+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:17:22.0405707+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:17:37.0401917+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:17:52.0400891+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:18:07.0403986+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:18:22.0441593+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:18:37.0403641+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:18:37.6096671+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:18:39.8838332+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:18:44.216294+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:18:52.041004+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:19:07.040945+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:19:07.6316135+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:19:09.9973649+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:19:22.0408092+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:19:37.0402614+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:19:37.6230356+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:19:40.1198376+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:19:52.0401893+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:20:07.0404465+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:20:07.6107714+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:20:09.9259801+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:20:22.0403772+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:20:37.0401485+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:20:52.0403331+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:21:07.0408909+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:21:07.6127045+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:21:10.1386496+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:21:22.0401866+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:21:37.0445377+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:21:37.5908042+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:21:39.8352707+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:21:44.1943215+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:21:52.0405552+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:22:07.0400722+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:22:07.5354738+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:22:10.0963003+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:22:22.0401595+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:22:37.0405275+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:22:52.0405019+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:23:07.0408146+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:23:07.5349443+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:23:10.0703627+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:23:22.0402384+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:23:37.0405894+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:23:37.5546333+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:23:39.7389891+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:23:52.0410379+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:24:07.0403347+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:24:22.0401524+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:24:37.040185+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:24:52.0406414+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:25:07.0399097+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:25:22.0402392+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:25:37.0404038+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:25:52.0402159+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:26:07.0400805+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:26:22.0403757+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:26:37.0404982+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:26:52.0403722+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:26:55.9019699+02:00","level":"INFO","msg":"stream: closing","id":"ralj1ih8"}
+{"time":"2025-08-01T01:26:56.2273115+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:26:57.3929227+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-01T01:26:58.4846353+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/ralj1ih8/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:27:03.1870217+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ralj1ih8"}
+{"time":"2025-08-01T01:27:03.1870217+02:00","level":"INFO","msg":"handler: closed","stream_id":"ralj1ih8"}
+{"time":"2025-08-01T01:27:03.1870217+02:00","level":"INFO","msg":"sender: closed","stream_id":"ralj1ih8"}
+{"time":"2025-08-01T01:27:03.1875413+02:00","level":"INFO","msg":"stream: closed","id":"ralj1ih8"}

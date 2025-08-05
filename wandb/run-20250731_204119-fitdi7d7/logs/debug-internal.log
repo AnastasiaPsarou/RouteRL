@@ -1,0 +1,36 @@
+{"time":"2025-07-31T20:41:20.0070424+02:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-31T20:41:20.1568521+02:00","level":"INFO","msg":"stream: created new stream","id":"fitdi7d7"}
+{"time":"2025-07-31T20:41:20.1568521+02:00","level":"INFO","msg":"stream: started","id":"fitdi7d7"}
+{"time":"2025-07-31T20:41:20.1568521+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"fitdi7d7"}
+{"time":"2025-07-31T20:41:20.1568521+02:00","level":"INFO","msg":"sender: started","stream_id":"fitdi7d7"}
+{"time":"2025-07-31T20:41:20.1568521+02:00","level":"INFO","msg":"handler: started","stream_id":"fitdi7d7"}
+{"time":"2025-07-31T20:41:35.3733671+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T20:41:50.3734251+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T20:42:05.3731413+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T20:42:20.3731821+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T20:42:35.373067+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T20:42:50.3730964+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T20:43:05.3732836+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T20:43:20.3732444+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T20:43:35.3732135+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T20:43:50.3731531+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T20:44:05.3733388+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T20:44:20.3732204+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T20:44:35.3734028+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T20:44:50.373214+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T20:45:05.3736468+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T20:45:20.373114+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T20:45:35.3731602+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T20:45:50.3731099+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T20:46:05.3732852+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T20:46:20.3732571+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T20:46:35.3735467+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T20:46:50.3730717+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T20:47:05.3729899+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T20:47:20.373548+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T20:47:32.1655587+02:00","level":"INFO","msg":"stream: closing","id":"fitdi7d7"}
+{"time":"2025-07-31T20:47:32.5415535+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-31T20:47:32.7365206+02:00","level":"INFO","msg":"handler: closed","stream_id":"fitdi7d7"}
+{"time":"2025-07-31T20:47:32.7365206+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"fitdi7d7"}
+{"time":"2025-07-31T20:47:32.7365206+02:00","level":"INFO","msg":"sender: closed","stream_id":"fitdi7d7"}
+{"time":"2025-07-31T20:47:32.7370314+02:00","level":"INFO","msg":"stream: closed","id":"fitdi7d7"}

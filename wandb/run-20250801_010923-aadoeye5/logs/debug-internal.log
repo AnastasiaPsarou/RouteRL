@@ -1,0 +1,143 @@
+{"time":"2025-08-01T01:09:23.0789767+02:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-08-01T01:09:23.2593079+02:00","level":"INFO","msg":"stream: created new stream","id":"aadoeye5"}
+{"time":"2025-08-01T01:09:23.2593079+02:00","level":"INFO","msg":"stream: started","id":"aadoeye5"}
+{"time":"2025-08-01T01:09:23.2593079+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"aadoeye5"}
+{"time":"2025-08-01T01:09:23.2593079+02:00","level":"INFO","msg":"handler: started","stream_id":"aadoeye5"}
+{"time":"2025-08-01T01:09:23.2593079+02:00","level":"INFO","msg":"sender: started","stream_id":"aadoeye5"}
+{"time":"2025-08-01T01:09:38.4155904+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:09:39.0915341+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:09:41.5579582+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:09:53.4154348+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:10:08.4155473+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:10:09.0707509+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:10:11.4173691+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:10:23.4156676+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:10:38.4152193+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:10:39.0597604+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:10:41.2746996+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:10:53.4155414+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:11:08.4151208+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:11:09.0693257+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:11:11.4147375+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:11:23.414959+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:11:38.4155181+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:11:39.0841137+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:11:41.2959538+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:11:53.4154763+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:12:08.4150569+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:12:09.0706821+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:12:11.688635+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:12:23.4154076+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:12:38.4151574+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:12:39.0568064+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:12:41.4208976+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:12:53.4154373+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:13:08.4154125+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:13:09.0807376+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:13:11.5533286+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:13:23.4153508+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:13:38.4155899+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:13:39.0586754+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:13:41.297608+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:13:53.4152812+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:14:08.4153592+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:14:09.0596062+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:14:11.572833+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:14:23.4152556+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:14:38.4154146+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:14:39.0838701+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:14:41.6375271+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:14:53.4153134+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:15:08.4154354+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:15:09.0739128+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:15:11.4522639+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:15:23.4153492+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:15:38.4151806+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:15:39.0709738+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:15:41.6920786+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:15:53.4153103+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:16:08.4156342+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:16:09.0651003+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:16:11.5533272+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:16:23.4151482+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:16:38.4153404+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:16:39.0892253+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:16:41.411242+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:16:53.4153494+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:17:08.4153891+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:17:09.0920412+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:17:11.4070095+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:17:23.4153632+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:17:38.4156201+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:17:39.1112995+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:17:41.7836591+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:17:53.4152965+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:18:08.4154647+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:18:09.1181376+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:18:11.6402753+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:18:23.4154189+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:18:38.4153187+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:18:39.0880687+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:18:41.3371306+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:18:53.4155177+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:19:08.4152237+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:19:09.0865596+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:19:11.6053197+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:19:23.4156296+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:19:38.4152029+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:19:39.0870362+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:19:41.5945198+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:19:53.4154115+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:20:08.4150743+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:20:09.0879665+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:20:11.777751+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:20:23.4152361+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:20:38.4154404+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:20:39.102785+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:20:41.3570155+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:20:53.4155804+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:21:08.4154891+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:21:09.0930455+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:21:11.3577052+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:21:23.4151052+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:21:38.4152+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:21:39.0876173+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:21:41.6980891+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:21:53.4153256+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:22:08.4153179+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:22:09.0738243+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:22:11.3878451+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:22:23.41536+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:22:38.4151526+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:22:39.0730919+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:22:41.2982313+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:22:53.4156314+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:23:08.4152186+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:23:09.0717991+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:23:11.290015+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:23:23.4152679+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:23:38.4153381+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:23:39.0757398+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:23:41.7358865+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:23:53.4155176+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:24:08.4154002+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:24:23.4237926+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:24:38.4153122+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:24:53.4154572+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:25:08.415346+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:25:09.075705+02:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-08-01T01:25:11.2640096+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:25:23.4152354+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:25:38.41531+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:25:53.4157467+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:26:08.415275+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:26:23.4156708+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:26:38.4157859+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:26:53.4153932+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:26:55.9025634+02:00","level":"INFO","msg":"stream: closing","id":"aadoeye5"}
+{"time":"2025-08-01T01:26:57.6063807+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-01T01:26:57.7711351+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/aadoeye5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:27:00.321866+02:00","level":"INFO","msg":"handler: closed","stream_id":"aadoeye5"}
+{"time":"2025-08-01T01:27:00.321866+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"aadoeye5"}
+{"time":"2025-08-01T01:27:00.321866+02:00","level":"INFO","msg":"sender: closed","stream_id":"aadoeye5"}
+{"time":"2025-08-01T01:27:00.3226269+02:00","level":"INFO","msg":"stream: closed","id":"aadoeye5"}

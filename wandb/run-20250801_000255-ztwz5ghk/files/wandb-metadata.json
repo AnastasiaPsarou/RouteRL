@@ -1,0 +1,26 @@
+{
+  "os": "Windows-11-10.0.26100-SP0",
+  "python": "CPython 3.13.5",
+  "startedAt": "2025-07-31T22:02:55.027821Z",
+  "program": "<python with no main file>",
+  "git": {
+    "remote": "https://github.com/AnastasiaPsarou/RouteRL.git",
+    "commit": "3a2b18e6d3e9cf33182e29b53ce082c32557310b"
+  },
+  "email": "anastasiapsarou123@gmail.com",
+  "root": "C:\\Users\\Anastasia\\RouteRL",
+  "host": "LAPTOP-NKH7FO89",
+  "executable": "C:\\Users\\Anastasia\\anaconda3\\python.exe",
+  "cpu_count": 10,
+  "cpu_count_logical": 12,
+  "disk": {
+    "/": {
+      "total": "509722226688",
+      "used": "456371859456"
+    }
+  },
+  "memory": {
+    "total": "16863059968"
+  },
+  "writerId": "uk4djyco0a39zlqrga5alodbjzt7wucp"
+}

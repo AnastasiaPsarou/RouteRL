@@ -1,0 +1,46 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            dn2rkqfwaz8cm2ykz4iyscq1g9lfeidh:
+                cpu_count: 10
+                cpu_count_logical: 12
+                disk:
+                    /:
+                        total: "509722226688"
+                        used: "456232894464"
+                email: anastasiapsarou123@gmail.com
+                executable: C:\Users\Anastasia\anaconda3\python.exe
+                git:
+                    commit: 3a2b18e6d3e9cf33182e29b53ce082c32557310b
+                    remote: https://github.com/AnastasiaPsarou/RouteRL.git
+                host: LAPTOP-NKH7FO89
+                memory:
+                    total: "16863059968"
+                os: Windows-11-10.0.26100-SP0
+                program: <python with no main file>
+                python: CPython 3.13.5
+                root: C:\Users\Anastasia\RouteRL
+                startedAt: "2025-07-31T20:46:28.738359Z"
+                writerId: dn2rkqfwaz8cm2ykz4iyscq1g9lfeidh
+        m: []
+        python_version: 3.13.5
+        t:
+            "1":
+                - 1
+                - 5
+                - 35
+                - 53
+                - 105
+            "2":
+                - 1
+                - 5
+                - 35
+                - 53
+                - 105
+            "4": 3.13.5
+            "5": 0.21.0
+            "8":
+                - 3
+            "12": 0.21.0
+            "13": windows-amd64

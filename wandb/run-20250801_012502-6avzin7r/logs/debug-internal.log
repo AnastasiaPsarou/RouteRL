@@ -1,0 +1,23 @@
+{"time":"2025-08-01T01:25:02.7656371+02:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-08-01T01:25:02.9501028+02:00","level":"INFO","msg":"stream: created new stream","id":"6avzin7r"}
+{"time":"2025-08-01T01:25:02.9501028+02:00","level":"INFO","msg":"stream: started","id":"6avzin7r"}
+{"time":"2025-08-01T01:25:02.9508273+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"6avzin7r"}
+{"time":"2025-08-01T01:25:02.9508273+02:00","level":"INFO","msg":"handler: started","stream_id":"6avzin7r"}
+{"time":"2025-08-01T01:25:02.9508273+02:00","level":"INFO","msg":"sender: started","stream_id":"6avzin7r"}
+{"time":"2025-08-01T01:25:18.1492464+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:25:33.1492424+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:25:48.1490291+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:26:03.1492521+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:26:18.1493142+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:26:33.1495751+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:26:48.149359+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-08-01T01:26:55.9013211+02:00","level":"INFO","msg":"stream: closing","id":"6avzin7r"}
+{"time":"2025-08-01T01:26:56.2273115+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/6avzin7r/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:26:56.3758992+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-01T01:26:58.5014378+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/6avzin7r/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:27:03.57698+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/6avzin7r/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:27:12.3377716+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/anastasiapsarou123/optuna-mbie-hyperparameter-tuning/6avzin7r/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-08-01T01:27:32.6041932+02:00","level":"INFO","msg":"handler: closed","stream_id":"6avzin7r"}
+{"time":"2025-08-01T01:27:32.6041932+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"6avzin7r"}
+{"time":"2025-08-01T01:27:32.6041932+02:00","level":"INFO","msg":"sender: closed","stream_id":"6avzin7r"}
+{"time":"2025-08-01T01:27:32.6041932+02:00","level":"INFO","msg":"stream: closed","id":"6avzin7r"}

@@ -1,0 +1,19 @@
+{"time":"2025-07-31T20:45:37.5940967+02:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-31T20:45:37.7447847+02:00","level":"INFO","msg":"stream: created new stream","id":"5y1x1dih"}
+{"time":"2025-07-31T20:45:37.7447847+02:00","level":"INFO","msg":"stream: started","id":"5y1x1dih"}
+{"time":"2025-07-31T20:45:37.7447847+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"5y1x1dih"}
+{"time":"2025-07-31T20:45:37.7447847+02:00","level":"INFO","msg":"sender: started","stream_id":"5y1x1dih"}
+{"time":"2025-07-31T20:45:37.7447847+02:00","level":"INFO","msg":"handler: started","stream_id":"5y1x1dih"}
+{"time":"2025-07-31T20:45:52.9461282+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T20:46:07.9460382+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T20:46:22.946377+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T20:46:37.9460029+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T20:46:52.9458873+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T20:47:07.9460998+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T20:47:22.9460278+02:00","level":"ERROR","msg":"monitor: error sampling metrics: process does not exist"}
+{"time":"2025-07-31T20:47:32.1655587+02:00","level":"INFO","msg":"stream: closing","id":"5y1x1dih"}
+{"time":"2025-07-31T20:47:32.5149335+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-31T20:47:32.7098026+02:00","level":"INFO","msg":"handler: closed","stream_id":"5y1x1dih"}
+{"time":"2025-07-31T20:47:32.7098026+02:00","level":"INFO","msg":"sender: closed","stream_id":"5y1x1dih"}
+{"time":"2025-07-31T20:47:32.7098026+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"5y1x1dih"}
+{"time":"2025-07-31T20:47:32.7104575+02:00","level":"INFO","msg":"stream: closed","id":"5y1x1dih"}

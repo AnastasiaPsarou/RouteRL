@@ -1,4 +1,5 @@
 from tqdm import tqdm
+import numpy as np
 import os
 import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
@@ -18,9 +19,9 @@ os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 #########################
 
 
-new_machines_after_mutation = 20
+new_machines_after_mutation = 10
 human_learning_episodes = 1
-training_episodes = 1000
+training_episodes = 300
 testing_episodes = 100
 
 total_episodes = human_learning_episodes + training_episodes
@@ -29,9 +30,7 @@ env_params = {
     "agent_parameters" : {
         "new_machines_after_mutation": new_machines_after_mutation,
         "agents_csv_file_name": "agents.csv",
-        "num_agents" : 50,
-
-
+        "num_agents" : 22,
 
         "human_parameters" :
         {
@@ -62,7 +61,7 @@ env_params = {
         }
     },
     "simulator_parameters" : {
-        "network_name" : "ingolstadt",
+        "network_name" : "two_route_yield",
         "sumo_type" : "sumo",
     },  
     "plotter_parameters" : {
@@ -74,18 +73,18 @@ env_params = {
             "Testing phase"
         ],
         "plot_choices": "basic",
-        "records_folder": "tutorials/7_Model_Based_Algos/records_ucb_ingolstadt",
-        "plots_folder": "tutorials/7_Model_Based_Algos/plots_ucb_ingolstadt",
+        "records_folder": "tutorials/7_Model_Based_Algos/records_ucb_two_route_net",
+        "plots_folder": "tutorials/7_Model_Based_Algos/plots_ucb_two_route_net",
     },
     "path_generation_parameters":
     {
-        "number_of_paths" : 3,
+        "number_of_paths" : 2,
         "beta" : -1,
         "visualize_paths" : True
     }
 }
 
-env = TrafficEnvironment(seed=42, create_agents=True, create_paths=True, **env_params)
+env = TrafficEnvironment(seed=42, create_agents=False, create_paths=True, **env_params)
 
 print("Number of total agents is: ", len(env.all_agents), "\n")
 print("Number of human agents is: ", len(env.human_agents), "\n")
@@ -123,10 +122,13 @@ for h_id, human in mutated_humans.items():
     initial_knowledge = free_flows[(human.origin, human.destination)]
     initial_knowledge = [0, 0]
 
-    num_states = pow(50 ,3) 
-    num_actions = 3
+    num_actions = env.action_space_size
+    num_states = pow(len(env.all_agents), num_actions) 
+    alpha = 0.5
+    beta = 0.5
     
-    mutated_humans[h_id].model = UCB(num_states = num_states, num_actions = num_actions, r_max = 0)
+    mutated_humans[h_id].model = UCB(num_states = num_states, num_actions = num_actions,
+                                    num_agents = len(env.all_agents), alpha = alpha, beta=beta)
 
 
 ################

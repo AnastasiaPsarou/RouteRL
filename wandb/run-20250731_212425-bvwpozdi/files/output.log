@@ -1,0 +1,104 @@
+[32m[I 2025-07-31 21:24:27,050][0m A new study created in memory with name: no-name-e4c22a41-dd28-48eb-97bf-603b96931865[0m
+[33m[W 2025-07-31 21:24:27,069][0m Trial 0 failed with parameters: {'beta': 2.5, 'alpha': 0.2} because of the following error: FileNotFoundError(2, 'No such file or directory').[0m
+Traceback (most recent call last):
+  File "C:\Users\Anastasia\anaconda3\Lib\site-packages\optuna\study\_optimize.py", line 201, in _run_trial
+    value_or_values = func(trial)
+  File "C:\Users\Anastasia\RouteRL\tutorials\7_Model_Based_Algos\ucb_optuna.py", line 93, in objective
+    env = TrafficEnvironment(seed=42, create_agents=False, create_paths=True, **env_params)
+  File "C:\Users\Anastasia\RouteRL\routerl\environment\environment.py", line 365, in __init__
+    self.simulator = SumoSimulator(self.simulation_params, self.path_gen_params, seed, not create_agents, save_detectors_info, randomize_sumo_seed)
+                     ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anastasia\RouteRL\routerl\environment\simulator.py", line 106, in __init__
+    self._get_paths(params, path_gen_params, using_custom_demand)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anastasia\RouteRL\routerl\environment\simulator.py", line 144, in _get_paths
+    demand_df = pd.read_csv(os.path.join(params[kc.RECORDS_FOLDER], path_gen_params[kc.AGENTS_CSV_FILE_NAME]))
+  File "C:\Users\Anastasia\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\Anastasia\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\Anastasia\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Anastasia\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ~~~~~~~~~~^
+        f,
+        ^^
+    ...<6 lines>...
+        storage_options=self.options.get("storage_options", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Anastasia\anaconda3\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+FileNotFoundError: [Errno 2] No such file or directory: 'tutorials/7_Model_Based_Algos/records_ucb_two_route_net_optuna\\agents.csv'
+[33m[W 2025-07-31 21:24:27,092][0m Trial 0 failed with value None.[0m
+Traceback (most recent call last):
+  File "C:\Users\Anastasia\RouteRL\tutorials\7_Model_Based_Algos\ucb_optuna.py", line 207, in <module>
+    study.optimize(objective, n_trials=100)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anastasia\anaconda3\Lib\site-packages\optuna\study\study.py", line 489, in optimize
+    _optimize(
+    ~~~~~~~~~^
+        study=self,
+        ^^^^^^^^^^^
+    ...<7 lines>...
+        show_progress_bar=show_progress_bar,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Anastasia\anaconda3\Lib\site-packages\optuna\study\_optimize.py", line 64, in _optimize
+    _optimize_sequential(
+    ~~~~~~~~~~~~~~~~~~~~^
+        study,
+        ^^^^^^
+    ...<8 lines>...
+        progress_bar=progress_bar,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Anastasia\anaconda3\Lib\site-packages\optuna\study\_optimize.py", line 161, in _optimize_sequential
+    frozen_trial = _run_trial(study, func, catch)
+  File "C:\Users\Anastasia\anaconda3\Lib\site-packages\optuna\study\_optimize.py", line 253, in _run_trial
+    raise func_err
+  File "C:\Users\Anastasia\anaconda3\Lib\site-packages\optuna\study\_optimize.py", line 201, in _run_trial
+    value_or_values = func(trial)
+  File "C:\Users\Anastasia\RouteRL\tutorials\7_Model_Based_Algos\ucb_optuna.py", line 93, in objective
+    env = TrafficEnvironment(seed=42, create_agents=False, create_paths=True, **env_params)
+  File "C:\Users\Anastasia\RouteRL\routerl\environment\environment.py", line 365, in __init__
+    self.simulator = SumoSimulator(self.simulation_params, self.path_gen_params, seed, not create_agents, save_detectors_info, randomize_sumo_seed)
+                     ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anastasia\RouteRL\routerl\environment\simulator.py", line 106, in __init__
+    self._get_paths(params, path_gen_params, using_custom_demand)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anastasia\RouteRL\routerl\environment\simulator.py", line 144, in _get_paths
+    demand_df = pd.read_csv(os.path.join(params[kc.RECORDS_FOLDER], path_gen_params[kc.AGENTS_CSV_FILE_NAME]))
+  File "C:\Users\Anastasia\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\Anastasia\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\Anastasia\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Anastasia\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ~~~~~~~~~~^
+        f,
+        ^^
+    ...<6 lines>...
+        storage_options=self.options.get("storage_options", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Anastasia\anaconda3\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+FileNotFoundError: [Errno 2] No such file or directory: 'tutorials/7_Model_Based_Algos/records_ucb_two_route_net_optuna\\agents.csv'

@@ -17,10 +17,10 @@ os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 #########################
 
 
-new_machines_after_mutation = 20
+new_machines_after_mutation = 10
 human_learning_episodes = 1
-training_episodes = 1000
-testing_episodes = 100
+training_episodes = 300
+testing_episodes = 200
 
 total_episodes = human_learning_episodes + training_episodes
 
@@ -28,9 +28,7 @@ env_params = {
     "agent_parameters" : {
         "new_machines_after_mutation": new_machines_after_mutation,
         "agents_csv_file_name": "agents.csv",
-        "num_agents" : 50,
-
-
+        "num_agents" : 22,
 
         "human_parameters" :
         {
@@ -61,7 +59,7 @@ env_params = {
         }
     },
     "simulator_parameters" : {
-        "network_name" : "ingolstadt",
+        "network_name" : "two_route_yield",
         "sumo_type" : "sumo",
     },  
     "plotter_parameters" : {
@@ -73,12 +71,12 @@ env_params = {
             "Testing phase"
         ],
         "plot_choices": "basic",
-        "records_folder": "tutorials/7_Model_Based_Algos/records_rmax_ingolstadt",
-        "plots_folder": "tutorials/7_Model_Based_Algos/plots_rmax_ingolstadt",
+        "records_folder": "tutorials/7_Model_Based_Algos/records_rmax",
+        "plots_folder": "tutorials/7_Model_Based_Algos/plots_rmax",
     },
     "path_generation_parameters":
     {
-        "number_of_paths" : 3,
+        "number_of_paths" : 2,
         "beta" : -1,
         "visualize_paths" : True
     }
@@ -122,10 +120,11 @@ for h_id, human in mutated_humans.items():
     initial_knowledge = free_flows[(human.origin, human.destination)]
     initial_knowledge = [0, 0]
 
-    num_states = pow(50 ,3) 
-    num_actions = 3
+    num_states = pow(22 ,2) 
+    num_actions = 2
     
-    mutated_humans[h_id].model = Rmax(num_states = num_states, num_actions = num_actions, r_max = 0)
+    mutated_humans[h_id].model = Rmax(num_states = num_states, num_actions = num_actions, 
+                                        r_max = 0, training_episodes = training_episodes)
 
 
 ################
@@ -176,6 +175,7 @@ for episode in range(testing_episodes):
     pbar.update()
 
 pbar.close()
+
 
 env.plot_results()
 env.close()

@@ -1,0 +1,345 @@
+[32m[I 2025-07-31 20:11:02,318][0m A new study created in memory with name: no-name-6b3cc41a-4387-4734-a35d-49c86f525b19[0m
+Number of total agents is:  22
+
+Number of human agents is:  22
+
+Number of machine agents (autonomous vehicles) is:  0
+
+Number of total agents is:  22
+
+Number of human agents is:  12
+
+Number of machine agents (autonomous vehicles) is:  10
+
+Going to start training
+Testing: : 400it [02:30,  2.67it/s]                                                                                          
+[32m[I 2025-07-31 20:13:41,660][0m Trial 0 finished with value: 1.1516666666666668 and parameters: {'beta': 4.0}. Best is trial 0 with value: 1.1516666666666668.[0m
+
+
+Number of total agents is:  22
+
+Number of human agents is:  22
+
+Number of machine agents (autonomous vehicles) is:  0
+
+Number of total agents is:  22
+
+Number of human agents is:  12
+
+Number of machine agents (autonomous vehicles) is:  10
+
+Going to start training
+Testing: : 400it [01:56,  3.44it/s]                                                                                          
+[32m[I 2025-07-31 20:15:48,075][0m Trial 1 finished with value: 1.0583333333333333 and parameters: {'beta': 6.5}. Best is trial 1 with value: 1.0583333333333333.[0m
+
+
+Number of total agents is:  22
+
+Number of human agents is:  22
+
+Number of machine agents (autonomous vehicles) is:  0
+
+Number of total agents is:  22
+
+Number of human agents is:  12
+
+Number of machine agents (autonomous vehicles) is:  10
+
+Going to start training
+Testing: : 400it [01:14,  5.36it/s]                                                                                          
+[32m[I 2025-07-31 20:17:12,941][0m Trial 2 finished with value: 1.0833333333333335 and parameters: {'beta': 10.0}. Best is trial 1 with value: 1.0583333333333333.[0m
+
+
+Number of total agents is:  22
+
+Number of human agents is:  22
+
+Number of machine agents (autonomous vehicles) is:  0
+
+Number of total agents is:  22
+
+Number of human agents is:  12
+
+Number of machine agents (autonomous vehicles) is:  10
+
+Going to start training
+Testing: : 400it [01:07,  5.96it/s]                                                                                          
+[32m[I 2025-07-31 20:18:30,653][0m Trial 3 finished with value: 0.9566666666666667 and parameters: {'beta': 0.5}. Best is trial 3 with value: 0.9566666666666667.[0m
+
+
+Number of total agents is:  22
+
+Number of human agents is:  22
+
+Number of machine agents (autonomous vehicles) is:  0
+
+Number of total agents is:  22
+
+Number of human agents is:  12
+
+Number of machine agents (autonomous vehicles) is:  10
+
+Going to start training
+Testing: : 400it [01:20,  4.94it/s]                                                                                          
+[32m[I 2025-07-31 20:20:02,138][0m Trial 4 finished with value: 1.0783333333333331 and parameters: {'beta': 5.5}. Best is trial 3 with value: 0.9566666666666667.[0m
+
+
+Number of total agents is:  22
+
+Number of human agents is:  22
+
+Number of machine agents (autonomous vehicles) is:  0
+
+Number of total agents is:  22
+
+Number of human agents is:  12
+
+Number of machine agents (autonomous vehicles) is:  10
+
+Going to start training
+Testing: : 400it [01:17,  5.17it/s]                                                                                          
+[32m[I 2025-07-31 20:21:30,247][0m Trial 5 finished with value: 1.1250000000000002 and parameters: {'beta': 5.0}. Best is trial 3 with value: 0.9566666666666667.[0m
+
+
+Number of total agents is:  22
+
+Number of human agents is:  22
+
+Number of machine agents (autonomous vehicles) is:  0
+
+Number of total agents is:  22
+
+Number of human agents is:  12
+
+Number of machine agents (autonomous vehicles) is:  10
+
+Going to start training
+Testing: : 400it [01:36,  4.16it/s]                                                                                          
+[32m[I 2025-07-31 20:23:17,634][0m Trial 6 finished with value: 1.1583333333333332 and parameters: {'beta': 7.0}. Best is trial 3 with value: 0.9566666666666667.[0m
+
+
+Number of total agents is:  22
+
+Number of human agents is:  22
+
+Number of machine agents (autonomous vehicles) is:  0
+
+Number of total agents is:  22
+
+Number of human agents is:  12
+
+Number of machine agents (autonomous vehicles) is:  10
+
+Going to start training
+Testing: : 400it [01:19,  5.06it/s]                                                                                          
+[32m[I 2025-07-31 20:24:48,477][0m Trial 7 finished with value: 1.1800000000000002 and parameters: {'beta': 9.0}. Best is trial 3 with value: 0.9566666666666667.[0m
+
+
+Number of total agents is:  22
+
+Number of human agents is:  22
+
+Number of machine agents (autonomous vehicles) is:  0
+
+Number of total agents is:  22
+
+Number of human agents is:  12
+
+Number of machine agents (autonomous vehicles) is:  10
+
+Going to start training
+Testing: : 400it [01:21,  4.90it/s]                                                                                          
+[32m[I 2025-07-31 20:26:20,688][0m Trial 8 finished with value: 1.1183333333333332 and parameters: {'beta': 3.0}. Best is trial 3 with value: 0.9566666666666667.[0m
+
+
+Number of total agents is:  22
+
+Number of human agents is:  22
+
+Number of machine agents (autonomous vehicles) is:  0
+
+Number of total agents is:  22
+
+Number of human agents is:  12
+
+Number of machine agents (autonomous vehicles) is:  10
+
+Going to start training
+Testing: : 400it [01:21,  4.89it/s]                                                                                          
+[32m[I 2025-07-31 20:27:53,878][0m Trial 9 finished with value: 1.0516666666666665 and parameters: {'beta': 9.5}. Best is trial 3 with value: 0.9566666666666667.[0m
+
+
+Number of total agents is:  22
+
+Number of human agents is:  22
+
+Number of machine agents (autonomous vehicles) is:  0
+
+Number of total agents is:  22
+
+Number of human agents is:  12
+
+Number of machine agents (autonomous vehicles) is:  10
+
+Going to start training
+Testing: : 400it [01:17,  5.15it/s]                                                                                          
+[32m[I 2025-07-31 20:29:22,791][0m Trial 10 finished with value: 0.9816666666666667 and parameters: {'beta': 2.0}. Best is trial 3 with value: 0.9566666666666667.[0m
+
+
+Number of total agents is:  22
+
+Number of human agents is:  22
+
+Number of machine agents (autonomous vehicles) is:  0
+
+Number of total agents is:  22
+
+Number of human agents is:  12
+
+Number of machine agents (autonomous vehicles) is:  10
+
+Going to start training
+Testing: : 400it [01:42,  3.91it/s]                                                                                          
+[32m[I 2025-07-31 20:31:18,510][0m Trial 11 finished with value: 0.9566666666666667 and parameters: {'beta': 1.0}. Best is trial 3 with value: 0.9566666666666667.[0m
+
+
+Number of total agents is:  22
+
+Number of human agents is:  22
+
+Number of machine agents (autonomous vehicles) is:  0
+
+Number of total agents is:  22
+
+Number of human agents is:  12
+
+Number of machine agents (autonomous vehicles) is:  10
+
+Going to start training
+Testing: : 400it [01:38,  4.08it/s]                                                                                          
+[32m[I 2025-07-31 20:33:11,293][0m Trial 12 finished with value: 0.9700000000000001 and parameters: {'beta': 2.5}. Best is trial 3 with value: 0.9566666666666667.[0m
+
+
+Number of total agents is:  22
+
+Number of human agents is:  22
+
+Number of machine agents (autonomous vehicles) is:  0
+
+Number of total agents is:  22
+
+Number of human agents is:  12
+
+Number of machine agents (autonomous vehicles) is:  10
+
+Going to start training
+Testing: : 400it [01:40,  3.97it/s]                                                                                          
+[32m[I 2025-07-31 20:35:06,482][0m Trial 13 finished with value: 1.0333333333333334 and parameters: {'beta': 8.0}. Best is trial 3 with value: 0.9566666666666667.[0m
+
+
+Number of total agents is:  22
+
+Number of human agents is:  22
+
+Number of machine agents (autonomous vehicles) is:  0
+
+Number of total agents is:  22
+
+Number of human agents is:  12
+
+Number of machine agents (autonomous vehicles) is:  10
+
+Going to start training
+Testing: : 400it [01:51,  3.59it/s]                                                                                          
+[32m[I 2025-07-31 20:37:12,871][0m Trial 14 finished with value: 1.0583333333333333 and parameters: {'beta': 4.5}. Best is trial 3 with value: 0.9566666666666667.[0m
+
+
+Number of total agents is:  22
+
+Number of human agents is:  22
+
+Number of machine agents (autonomous vehicles) is:  0
+
+Number of total agents is:  22
+
+Number of human agents is:  12
+
+Number of machine agents (autonomous vehicles) is:  10
+
+Going to start training
+Testing: : 400it [01:38,  4.06it/s]                                                                                          
+[32m[I 2025-07-31 20:39:06,483][0m Trial 15 finished with value: 0.9700000000000001 and parameters: {'beta': 3.5}. Best is trial 3 with value: 0.9566666666666667.[0m
+
+
+Number of total agents is:  22
+
+Number of human agents is:  22
+
+Number of machine agents (autonomous vehicles) is:  0
+
+Number of total agents is:  22
+
+Number of human agents is:  12
+
+Number of machine agents (autonomous vehicles) is:  10
+
+Going to start training
+Testing: : 400it [01:48,  3.69it/s]                                                                                          
+[32m[I 2025-07-31 20:41:08,624][0m Trial 16 finished with value: 1.04 and parameters: {'beta': 8.5}. Best is trial 3 with value: 0.9566666666666667.[0m
+
+
+Number of total agents is:  22
+
+Number of human agents is:  22
+
+Number of machine agents (autonomous vehicles) is:  0
+
+Number of total agents is:  22
+
+Number of human agents is:  12
+
+Number of machine agents (autonomous vehicles) is:  10
+
+Going to start training
+Testing: : 400it [01:49,  3.64it/s]                                                                                          
+[32m[I 2025-07-31 20:43:13,738][0m Trial 17 finished with value: 0.9816666666666667 and parameters: {'beta': 1.5}. Best is trial 3 with value: 0.9566666666666667.[0m
+
+
+Number of total agents is:  22
+
+Number of human agents is:  22
+
+Number of machine agents (autonomous vehicles) is:  0
+
+Number of total agents is:  22
+
+Number of human agents is:  12
+
+Number of machine agents (autonomous vehicles) is:  10
+
+Going to start training
+Testing: : 400it [01:36,  4.15it/s]                                                                                          
+[32m[I 2025-07-31 20:45:27,582][0m Trial 18 finished with value: 0.9566666666666667 and parameters: {'beta': 0.1}. Best is trial 3 with value: 0.9566666666666667.[0m
+
+
+Number of total agents is:  22
+
+Number of human agents is:  22
+
+Number of machine agents (autonomous vehicles) is:  0
+
+Number of total agents is:  22
+
+Number of human agents is:  12
+
+Number of machine agents (autonomous vehicles) is:  10
+
+Going to start training
+Testing: : 400it [01:49,  3.64it/s]                                                                                          
+[32m[I 2025-07-31 20:47:31,218][0m Trial 19 finished with value: 1.1133333333333333 and parameters: {'beta': 7.5}. Best is trial 3 with value: 0.9566666666666667.[0m
+
+
+Best trial:
+  Value: 0.9566666666666667
+  Params:
+    beta: 0.5

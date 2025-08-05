@@ -82,8 +82,9 @@ class UCB(BaseLearningModel):
         """
         obs_idx = np.ravel_multi_index(obs, self.obs_dim)
         self.last_obs = obs_idx
+        division_coef = 0.001
 
-        values = self.Q[obs_idx] + self.beta * np.sqrt(np.log(self.global_step) / self.sa_counts[obs_idx])
+        values = self.Q[obs_idx] + self.beta * np.sqrt(np.log(self.global_step) / (self.sa_counts[obs_idx] + division_coef))
         return np.random.choice(
             np.argwhere(values == np.max(values)).reshape((-1,))
         )

@@ -79,6 +79,8 @@ class MBIE(BaseLearningModel):
         Returns:
             float: Estimated reward for the given state-action pair.
         """
+
+        ## Next step: Implement exponential average 
         return self.reward_sums[obs, action] / self.sa_counts[obs, action]
 
 

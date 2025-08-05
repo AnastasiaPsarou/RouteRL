@@ -1,0 +1,14 @@
+{"time":"2025-07-31T20:11:01.3406859+02:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-31T20:11:01.7591921+02:00","level":"INFO","msg":"stream: created new stream","id":"aov7cvsh"}
+{"time":"2025-07-31T20:11:01.7591921+02:00","level":"INFO","msg":"stream: started","id":"aov7cvsh"}
+{"time":"2025-07-31T20:11:01.7591921+02:00","level":"INFO","msg":"handler: started","stream_id":"aov7cvsh"}
+{"time":"2025-07-31T20:11:01.759788+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"aov7cvsh"}
+{"time":"2025-07-31T20:11:01.759788+02:00","level":"INFO","msg":"sender: started","stream_id":"aov7cvsh"}
+{"time":"2025-07-31T20:30:02.9560397+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 10.65.183.98:57718->35.186.228.49:443: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"time":"2025-07-31T20:33:03.0543673+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 10.65.183.98:59912->35.186.228.49:443: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"time":"2025-07-31T20:47:32.1655587+02:00","level":"INFO","msg":"stream: closing","id":"aov7cvsh"}
+{"time":"2025-07-31T20:47:32.5671618+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-31T20:47:32.7890619+02:00","level":"INFO","msg":"handler: closed","stream_id":"aov7cvsh"}
+{"time":"2025-07-31T20:47:32.7890619+02:00","level":"INFO","msg":"sender: closed","stream_id":"aov7cvsh"}
+{"time":"2025-07-31T20:47:32.7890619+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"aov7cvsh"}
+{"time":"2025-07-31T20:47:32.7890619+02:00","level":"INFO","msg":"stream: closed","id":"aov7cvsh"}
