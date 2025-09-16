@@ -1,3 +1,16 @@
+## Updates from the DLRL Summer School 2025
+
+During the summer school, several updates were introduced to the repository:
+
+- **New algorithms added (dev branch):**
+  - UCB  
+  - MBIE  
+  - RMAX  
+
+- **New tutorial folder:**  
+  A dedicated folder named [`7_Model_Based_Algos`](https://github.com/AnastasiaPsarou/RouteRL/tree/dev/tutorials/7_Model_Based_Algos) has been created, showcasing the implementation and experimentation with these algorithms.
+
+
 <img src="docs/_static/logo.png" align="right" width="20%"/>
 
 # RouteRL
